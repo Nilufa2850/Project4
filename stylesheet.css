@@ -1,0 +1,230 @@
+body
+{
+    margin: 0px;
+    font-family: sans-serif;
+    color: #555658;
+}
+body div
+{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#div-header1
+{
+    background-color: #3b9ad7;
+    height: 55px;
+}
+#div-header2 h1
+{
+    color: #555658;
+    font-size:32px;
+    margin-bottom: 0px;
+}
+#div-header2 p
+{
+    color: #8c8c8c;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+}
+#div-header3
+{
+    background-color: #3b9ad7;
+    height: 60px;
+}
+#div-header3 a
+{
+    padding-top: 23px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: inline-block;
+    padding-right: 40px;
+    font-weight: bold;
+}
+#div-header3 a:hover
+{
+    color:lightgray;
+}
+#div-main1 h1
+{
+    color: #555658;
+    font-size: 35.0px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+span
+{
+    color: skyblue;
+}
+#div-main2
+{
+    font-size: 18px;
+    padding-right: 80px ;
+    line-height: 30px;
+}
+#div-main2 p
+{
+    margin-top: 30px;
+}
+
+/*TABLE LAYOUT*/
+
+#div-table th , #div-table td
+{
+    font-size: 18px;
+    border-bottom: 2px #3b9ad7 solid;
+}
+/*tr:last-child{ border-bottom: none; }  //its working for appling collapse */
+#div-table th
+{
+    padding: 5px 20px 5px;
+}
+#div-table td
+{
+    color: #469ed5;
+    padding: 10px 20px 10px;
+}
+#div-table tfoot tr td 
+{
+    color: green;
+    padding: 5px 10px 5px;
+}
+#div-table table
+{
+    border-collapse: collapse;
+    text-align: center;
+    border: 2px #3b9ad7 solid ;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+/*footer part*/
+#div-foot1 > strong
+{
+    font-size: 20px;
+}
+
+/*list*/
+#div-list ul
+{
+    padding-left: 100px;
+    margin:35px 0;;
+}
+#div-list ul li
+{
+    line-height: 30px;
+    font-size: 18px;
+}
+#div-list a
+{
+    color: #469ed5;
+    text-decoration: none;
+}
+#div-list a:hover
+{
+    color:navy;
+}
+/*list end*/
+
+#div-foot2 strong
+{
+    font-size: 19px;
+}
+#div-foot2 p
+{
+    margin-top: 30px;
+    margin-bottom: 200px;
+    font-size: 18px;
+
+}
+
+/*last part*/
+#lastpart
+{
+    background-color: #222223;
+    height: 1000px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+#lastpart #A ,#lastpart #B ,#lastpart #C
+{
+    min-height: 500px;
+    width: 350px;
+    float:left;
+    margin-top: 80px;
+    margin-right: 45px;
+    color:white;
+}
+
+/*A div*/
+#A
+{
+    padding: 0px 0px 0px 100px;
+}
+#B, #C
+{
+    padding: 0px;
+}
+#A img
+{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+#A #img1
+{
+    margin-bottom: 50px;
+}
+#A strong , #B strong , #C strong
+{
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    line-height: 30px;
+    display: block;
+}
+
+/*B div*/
+#B p
+{
+    background-color: white;
+    height: 2px;
+    margin-bottom: 100px;
+}
+/*c div*/
+#C p
+{
+    font-size: 18px;
+    color:#d3cece;
+    margin-bottom: 50px;
+    text-indent: 10px;
+}
+#C a
+{
+    display: block;
+    text-decoration: none;
+    line-height: 28px;
+    font-size: 18px;
+    color: #3b9ad7;
+}
+#C img
+{
+    margin-top: 10px;
+}
+
+#D
+{
+    clear: both;
+    padding: 40px 50px 0px 100px;
+    width: 85%;
+}
+#last-p
+{
+    background-color: #555658;
+    height: 1px;
+}
